@@ -9,7 +9,10 @@ from csv import DictReader
 
 def read_csv_rows(filename: str) -> list[dict[str, str]]:
     """Function pulls raw data and assigns it to a list of dictionaries consisting of strings."""
-    return []
+    file = open(filename)
+    for row in file:
+        
+    return 
 
 
 def column_values(table: list[dict[str, str]], column: str) -> list[str]:
